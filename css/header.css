@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+header{
+    background: #CDCBCB;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header .logo{
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.mobile{
+    display: none;
+}
+
+.header{
+    width: 98%;
+    margin: auto;
+}
+
+nav.desktop ul{
+    position: relative;
+    top: 6px;
+    list-style: none;
+}
+
+nav.desktop li{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+.w33{
+    width: 33%;
+}
+
+.distanciamento{
+    padding:17px 0;
+}
+
+@media screen and (max-width:800px){
+    nav.desktop li{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+    nav.mobile ul{
+        display: none;
+    }
+
+}

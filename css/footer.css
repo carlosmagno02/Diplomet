@@ -1,0 +1,56 @@
+/* footer */
+footer{
+    background-color: #CDCBCB;
+    width: 100%;
+    display: inline-block;
+    padding: 1% 0;
+
+}
+.footer{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer h3{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.reservado{
+    text-align: center;
+}
+
+.contato{
+    height: 100px;
+}
+
+.contato p{
+    color: #0f8b83;
+    position: relative;
+    top: 25%;
+}
+.redes{
+    height: 100px
+}
+
+.fab{
+    position: relative;
+    color:#0F8B83;
+    top: 25px;
+    font-size: 30px;
+}
+
+.fa-instagram{
+    padding: 0 10px;
+}
+
+@media screen and (max-width:500px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Boot Css */
+html,body{
+    height: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.center-hd{
+    position: relative;
+    /* top:8%; */
+    max-width:1027px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+.center{
+    position: relative;
+    /* top:8%; */
+    max-width:1027px;
+    width: 100%;
+    margin: auto;
+    padding: 1.86% 0;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.w33{
+    width: 33%;
+}
+
+.distanciamento{
+    padding:17px 0;
+}
+
+/*Pontos*/
+.buscar-pontos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pontos{
+    display: flex;
+    flex-direction: row;
+}
+
+.pontos p{
+    margin: auto;
+}
+
+.pontos input[type="email"]{
+    border: none;
+}
+
+.buscar{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.buscar input{
+    border: none;
+}
+
+.cartas img{
+    width: 100%;
+}
+
+.title{
+    font-size: 53px;
+    font-family: 'Paytone One', sans-serif;
+    padding-bottom: 5%;
+}
+
+.servicos{
+    text-align: center;
+}
+
+.nossos-servicos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+}
+
+.nossos-servicos li{
+    border: 8px solid black;
+    border-radius: 13px;
+    padding: 2%;
+}
+
+
+.nossos-servicos .missao{
+    box-shadow: -10px 10px #0f8b83;
+    border: 8px solid #0f8b83;
+}
+.nossos-servicos .missao:hover{
+    background-color: #0f8b83;
+    border:double 8px white;
+}
+
+.nossos-servicos .ranking{
+    box-shadow: -10px 10px #fedd00;
+    border: 8px solid #fedd00;
+}
+.nossos-servicos .ranking:hover{
+    background-color: #fedd00;
+    border:double 8px white;
+}
+
+.nossos-servicos .sobre{
+    box-shadow: -10px 10px #cb0e15;
+    border: 8px solid #cb0e15;
+}
+.nossos-servicos .sobre:hover{
+    background-color: #cb0e15;
+    border:double 8px white;
+}
+
+.nossos-servicos .contate{
+    box-shadow: -10px 10px #ed8900;
+    border: solid 8px #ed8900;
+}
+.nossos-servicos .contate:hover{
+    background-color: #ed8900;
+    border:double 8px white;
+}
+
+.nossos-servicos .entrar{
+    box-shadow: -10px 10px black;
+}
+.nossos-servicos .entrar:hover{
+    background-color: black;
+    border:double 8px white;
+}
+
+.nossos-servicos a{
+    text-decoration: none;
+    color: black;
+    padding: 29px;
+}
+
+.nossos-servicos a:hover{
+    color: white;
+}
+
+.nossos-servicos .missao a{
+    color: #0f8b83;
+}
+.nossos-servicos .missao a:hover{
+    color: white;
+}
+
+.nossos-servicos .ranking a{
+    color: #fedd00;
+}
+.nossos-servicos .ranking a:hover{
+    color:white;
+}
+
+.nossos-servicos .sobre a{
+    color: #cb0e15;
+}
+.nossos-servicos .sobre a:hover{
+    color:white;
+}
+
+.nossos-servicos .contate a{
+    color: #ed8900;
+}
+.nossos-servicos .contate a:hover{
+    color:white;
+}
+
+.nossos-servicos .entrar{
+    box-shadow: -10px 10px black;
+}
+
+/* Ranking */
+
+.ranking{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.topicos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.topicos li{
+    border: 8px solid black;
+    border-radius: 10px;
+    padding:5% 3%;
+    width: 100%;
+}
+
+
+.topicos .sala{
+    box-shadow: -10px 10px #0f8b83;
+    border: 5px solid #0f8b83;
+}
+.topicos .sala:hover{
+    background-color: #0f8b83;
+    border:double 5px white;
+}
+
+.topicos .al-escola{
+    /* box-shadow: -5px 5px #fedd00; */
+    border: 5px solid #fedd00;
+}
+/* .topicos .al-escola:hover{
+    background-color: #fedd00;
+    border:double 5px white;
+} */
+
+.topicos .escola{
+    box-shadow: -10px 10px #cb0e15;
+    border: 5px solid #cb0e15;
+}
+.topicos .escola:hover{
+    background-color: #cb0e15;
+    border:double 5px white;
+}
+
+.topicos .nacional{
+    box-shadow: -10px 10px #ed8900;
+    border: solid 5px #ed8900;
+}
+.topicos .nacional:hover{
+    background-color: #ed8900;
+    border:double 5px white;
+}
+
+.topicos a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 25px;
+}
+
+.topicos a:hover{
+    color: white;
+}
+
+.topicos .sala a{
+    color: #0f8b83;
+}
+.topicos .sala a:hover{
+    color: white;
+}
+
+.topicos .al-escola a{
+    color: #fedd00;
+}
+.topicos .al-escola a:hover{
+    /* color:white; */
+}
+
+.topicos .escola a{
+    color: #cb0e15;
+}
+.topicos .escola a:hover{
+    color:white;
+}
+
+.topicos .nacional a{
+    color: #ed8900;
+}
+.topicos .nacional a:hover{
+    color:white;
+}
+
+/* Controle */
+.controle h2{
+    text-align: center;
+}
+.icones-controle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.fa-calendar-check{
+    font-size: 120px;
+    color: #0f8b83;
+}
+
+.fa-paper-plane{
+    font-size: 120px;
+    color: #fedd00;
+}
+
+.fa-chart-line{
+    font-size: 120px;
+    color: red;
+}
+
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:700px){
+    .buscar-pontos{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .pontos{
+        justify-content: space-between;
+    }
+
+    .nossos-servicos{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .nossos-servicos .espaco{
+        padding:10px 0;
+    }
+    .topicos{
+        width: 100%;
+        display: inline-block;
+
+    }
+    .topicos li{
+        width: 40%;
+        display: inline-block;
+    }
+    .topicos .espaco{
+        padding: 0;
+    }
+    .icones-controle{
+        display: flex;
+        flex-direction: column;
+    }
+    .planejamento , .estrategia , .resultado{
+        padding: 5% 0;
+    }
+}
