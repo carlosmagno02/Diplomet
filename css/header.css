@@ -4,7 +4,7 @@
 }
 /* Header */
 header{
-    background: #CDCBCB;
+    background: #9C9C9C;
     padding: 20px 0;
     width: 100%;
 }
@@ -60,6 +60,12 @@ html,body{
 }
 .w33{
     width: 33%;
+}
+
+.ativo a{
+    color: white !important;
+    padding: 10px;
+    background-color: black;
 }
 
 .distanciamento{

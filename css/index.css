@@ -46,6 +46,13 @@ html,body{
     padding:17px 0;
 }
 
+.distanciamento2{
+    padding-bottom: 15%;
+}
+
+.banner img{
+    width: 100%;
+}
 /*Pontos*/
 .buscar-pontos{
     display: flex;
@@ -59,20 +66,38 @@ html,body{
 
 .pontos p{
     margin: auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
 }
 
 .pontos input[type="email"]{
     border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.pontos input[type="submit"]{
+    border-radius: 15px;
+    padding: 0 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    background-color: #0F8B83;
+    border: none;
 }
 
 .buscar{
+    width: 30%;
     border: 1px solid black;
     padding: 5px;
     border-radius: 15px;
+    background-color: #C4C4C4;
 }
 
 .buscar input{
     border: none;
+    background-color: #C4C4C4;
+    width: 90%;
 }
 
 .cartas img{
@@ -84,6 +109,7 @@ html,body{
     font-family: 'Paytone One', sans-serif;
     padding-bottom: 5%;
 }
+
 
 .servicos{
     text-align: center;
@@ -194,6 +220,7 @@ html,body{
 
 /* Ranking */
 
+
 .ranking{
     text-align: center;
     max-width: 900px;
@@ -295,6 +322,51 @@ html,body{
     color:white;
 }
 
+.tabela{
+    width: 80%;
+    margin: auto;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.primeira{
+    transform: translateY(-100px);
+    margin: auto;
+    width: 100%;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+}
+
+.medalha{
+    width: 78px;
+    height: 105px;
+    margin:auto 0;
+}
+
+.nome-classificados{
+    width: auto;
+    margin: auto 0;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+}
+
+.classificados{
+    padding:20px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+
+
 /* Controle */
 .controle h2{
     text-align: center;
@@ -324,9 +396,74 @@ html,body{
 }
 
 
-@media screen and (max-width:1024px){
-
+.missoes h2{
+    text-align: center;
 }
+
+.missao-atual{
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -20px 20px #0f8b83;
+    border: 5px solid #0f8b83;
+}
+
+.missao-atual h3{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 33px;
+    padding: 10px 0;
+}
+.missao-atual h4{
+    padding: 10px 0;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 27px;
+}
+
+.missao-atual p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+div.progresso{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 25%;
+    height: 25px;
+}
+
+.outras-missoes{
+    width: 80%;
+    margin: auto;
+}
+
+.outras-missoes h3{
+    padding-top: 30px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.mais-missões{
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+}
+
+.mais-missões li{
+    display: inline-block;
+    border: 8px solid black;
+    border-radius: 13px;
+    padding: 2%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    width: 25%;
+}
+
+
+
+
+
 
 @media screen and (max-width:700px){
     .buscar-pontos{
