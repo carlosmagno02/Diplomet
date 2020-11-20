@@ -95,6 +95,7 @@ padding-bottom: 50px;
 
 .missao img{
     max-width: 550px;
+    width: 100%;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
@@ -244,6 +245,10 @@ div.ranking{
     cursor: pointer;
 }
 
+.ranking-img{
+    width: 100%;
+}
+
 .pontuacao-usuario{
     padding: 20px 10px;
     border-radius: 5px;
@@ -271,6 +276,10 @@ div.controle{
 
 .controle-texto{
     max-width: 581px;
+}
+
+.controle img{
+    width: 100%;
 }
 
 .controle h3{
@@ -340,9 +349,7 @@ font-weight: 400;
     }
 
     .missao img{
-        width: 100%;
         margin-top: 20px;
-        background: none;
     };
 
     /* Cartas */
@@ -380,16 +387,11 @@ font-weight: 400;
         flex-direction: column;
     }
 
-    div.ranking img{
-        width: 100%;
-    }
+
     /* Controle */
     div.controle{
         flex-direction: column;
     }
 
-    div.controle img{
-        width: 100%;
-    }
 
 }
