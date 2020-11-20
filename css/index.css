@@ -340,6 +340,7 @@ font-weight: 400;
     }
 
     .missao img{
+        width: 100%;
         margin-top: 20px;
         background: none;
     };
@@ -349,10 +350,6 @@ font-weight: 400;
     .cards{
             display: flex;
             flex-direction: row;
-    }
-    .cards .img{
-        max-width: 10px;
-        max-height:10px ;
     }
     .leo{
         max-width:150px;
