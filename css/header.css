@@ -4,15 +4,25 @@
 }
 /* Header */
 header{
-    background: #9C9C9C;
+    background: #105652;
     padding: 20px 0;
     width: 100%;
 }
 
 header .logo{
-    font-size: 23px;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Roboto', serif;
+    color: white;
+    display: flex;
+}
+
+.logo p{
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+.logo img{
+    width: 41px;
 }
 
 .mobile{
@@ -20,27 +30,29 @@ header .logo{
 }
 
 .header{
-    width: 98%;
+    max-width: 1200px;
+    width: 100%;
     margin: auto;
 }
 
 nav.desktop ul{
     position: relative;
-    top: 6px;
+    top: 18px;
     list-style: none;
 }
 
 nav.desktop li{
     font-weight: 300;
-    font-size: 15px;
+    font-size:20px;
     padding: 0 30px;
     text-transform: uppercase;
     display: inline-block;
 }
 
 nav.desktop a{
-    color: black;
+    color: #25B1A8;
     text-decoration: none;
+    font-family: 'Paytone One', sans-serif;
 }
 
 html,body{
@@ -62,11 +74,6 @@ html,body{
     width: 33%;
 }
 
-.ativo a{
-    color: white !important;
-    padding: 10px;
-    background-color: black;
-}
 
 .distanciamento{
     padding:17px 0;

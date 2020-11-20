@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;600;family=Barlow+Condensed:wght@400&family=Paytone+One&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
     <title>Home</title>
 </head>
 
@@ -18,11 +24,14 @@
     <header>
         <div class="center-hd">
             <div class="header">
-                <div class="logo left">Diplomet</div>
+                <div class="logo left">
+                    <img src="./img/logoo.png" alt="">
+                    <p>Diplomet</p>
+                </div>
                 <!--logo-->
                 <nav class="desktop right">
                     <ul>
-                        <li class="ativo"><a  href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="./missoes.html">Missões</a></li>
                         <li><a href="./ranking.html">Ranking</a></li>
                         <li><a href="./sobre.html">Sobre</a></li>
@@ -49,120 +58,84 @@
         </div>
         <!--center-->
     </header>
-
-    <div class="center">
-        <div class="banner">
-            <img src="./img/banner.png" alt="#">
+    <section class="bem-vindo center">
+        <div class="cartas-bem-vindo">
+            <img src="./img/Cartas.png" alt="">
         </div>
-        <div class="distanciamento">
-            <section class="buscar-pontos">
-                <div class="pontos">
-                    <p>Pontos:</p>
-                    <input type="email" placeholder="email@dominio.com">
-                    <input type="submit" value="Ver pontuação">
+        <div class="bem-vindo-texto">
+            <h1>Bem Vindo ao Diplomet</h1>
+            <p>Aprenda sobre o conteudo de diversas materias e assuntos da atualidade enquanto faz atividades praticas e
+                teoricas, acumule pontos, ganhe cartas e se divirta.</p>
+        </div>
+    </section>
+    <section class="atividade">
+        <div class="missao center">
+            <div class="missao-texto">
+                <h3>aprenda</h3>
+                <h2>Divertindo</h2>
+                <p>Conclua missões teoricas como responder questionarios e realizar pesquisas, missões praticas como
+                    escanear qr codes na escola com informações sobre as materias</p>
+                <button>Ver missões</button>
+            </div>
+            <img src="./img/Missoes.jpeg" alt="">
+        </div>
+    </section>
+    <section class="cartas center">
+        <div class="cards-texto">
+            <h3>exclusivo</h3>
+            <h2>Jogo de cartas</h2>
+            <div class="barra"></div>
+            <h4>Se divirta com seus amigos neste card game</h4>
+        </div>
+        <div class="campo-cards">
+            <i class="seta fas fa-chevron-left"></i>
+            <div class="cards">
+                <img class="ramses" src="./img/Ramses II.png" alt="">
+                <img class="leo" src="./img/Leo da Vinci.png" alt="">
+                <img class="napoleao" src="./img/Napoleão Bonaparte.png" alt="">
+            </div>
+            <i class="seta fas fa-chevron-right"></i>
+        </div>
+    </section>
+    <section class="ranking">
+        <div class="ranking center">
+            <div class="ranking-left">
+                <div class="texto-ranking">
+                    <h3>conquiste o topo</h3>
+                    <h2>Do Ranking</h2>
+                    <p>Concluindo as missões, você ganhara pontos, e dessa forma subira no ranking, quem sabe você
+                        não
+                        consegue
+                        ser
+                        um dos primeiros</p>
+                    <input type="text" placeholder="email@dominio.com">
+                    <button> Ver pontuação</button>
                 </div>
-                <div class="buscar">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="buscar">
+                <div class="pontuacao-usuario">
+                    <label for="nome">nome: </label>
+                    <hr>
+                    <label for="pontos">pontos: </label>
+                    <hr>
+                    <label for="posicao">Posição: </label>
                 </div>
-            </section>
+            </div>
+            <div class="ranking-img">
+                <img src="./img/Tabela Ranking.png" alt="">
+            </div>
         </div>
-        <div class="distanciamento">
-            <section class="cartas">
-                <div class="img"><img src="./img/Espaco das cartas.png" alt=""></div>
-            </section>
-        </div>
-        <div class="distanciamento">
-            <section class="servicos">
-                <h2 class="title">Nossos Serviços</h2>
-                <ul class="nossos-servicos">
-
-                    <div class="espaco">
-                        <li class="missao"><a href="">Missões</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="ranking"><a href="">Ranking</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="sobre"><a href="">Sobre</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="contate"><a href="">Contato</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="entrar"><a href="">Entrar</a></li>
-                    </div>
-                </ul>
-            </section>
-        </div>
-        <div class="distanciamento">
-            <section class="ranking">
-                <h2 class="title">Ranking</h2>
-                <ul class="topicos">
-                    <div class="espaco">
-                        <li class="sala"><a href="">Melhores alunos da sala</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="al-escola"><a href="">Melhores alunos da escola</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="escola"><a href="">Melhores escolas</a></li>
-                    </div>
-                    <div class="espaco">
-                        <li class="nacional"><a href="">Melhores alunos(nacional)</a></li>
-                    </div>
-                </ul>
-                <div class="distanciamento2"></div>
-                <div class="tabela">
-                    <div class="primeiro">
-                        <img class="medalha" src="./img/medalha ouro.png" alt="">
-                        <div class="primeira">
-                            <img src="./img/foto1.png" alt="">
-                            <p>Maria B.</p>
-                            <p style="color: #fedd00;">12.000 pts</p>
-                        </div>
-                    </div>
-                    <div class="classificados">
-                        <div class="perfil">
-                            <img class="medalha" src="./img/medalha prata.png" alt="">
-                            <img src="./img/foto-perfil_01.png" alt="">
-                        </div>
-                        <div class="nome-classificados">
-                            <p>Joaquina L.</p>
-                            <p style="color: #fedd00;">10.000pts</p>
-                        </div>
-                    </div>
-                    <div class="classificados">
-                        <div class="perfil">
-                            <img class="medalha" src="./img/medalha bronze.png" alt="">
-                            <img src="./img/foto-perfil_03.png" alt="">
-                        </div>
-                        <div class="nome-classificados">
-                            <p>Maycon S.</p>
-                            <p style="color: #fedd00;">9.000pts</p>
-                        </div>
-                    </div>
-
-                    <div class="classificados">
-                        <div class="perfil">
-                            <img class="medalha" style="visibility: hidden;;" src="./img/medalha bronze.png" alt="">
-                            <img src="./img/foto-perfil_04.png" alt="">
-                        </div>
-                        <div class="nome-classificados">
-                            <p>Paula Q.</p>
-                            <p style="color: #fedd00;">8.000pts</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="distanciamento">
-            <div class="controle">
-                <h2 class="title">Seu controle</h2>
+    </section>
+    <section class="controle">
+        <div class="controle center">
+            <div class="controle-texto">
+                <h3>tenha controle das</h3>
+                <h2>Suas Ações</h2>
+                <p>Faça anotações sobre como se planejou para fazer as atividades, as estrategias ultilizadas e o
+                    resultado de
+                    tudo isso.</p>
                 <div class="icones-controle">
                     <div class="planejamento">
                         <i class="far fa-calendar-check"></i>
-                        <p>planejamento</p>
+                        <p>Planejamento</p>
                     </div>
                     <div class="estrategia">
                         <i class="far fa-paper-plane"></i>
@@ -174,50 +147,11 @@
                     </div>
                 </div>
             </div>
+            <div class="controle-img">
+                <img src="./img/Imagem-controle acoes.png" alt="">
+            </div>
         </div>
-        <div class="distanciamento">
-            <section class="missoes">
-                <h2 class="title">Suas Missões</h2>
-                <div class="missao-atual">
-                    <h3>MISSÃO 1</h3>
-                    <h4>Título:</h4>
-                    <p>Identificando Fake News: técnicas de pesquisa na internet</p>
-                    <h4>Qual o objetivo?</h4>
-                    <p>Ainda que a internet seja uma excelente ferramenta de pesquisa, você precisa conseguir
-                        identificar as
-                        fontes e referências das informações que encontra. Por isso, sua missão será aprender sobre como
-                        identificar notícias falsas e quais informações você precisa se atentar para não ser
-                        enganado.<br>Leia o material de apoio, assista a palestra em vídeo e responda o questionário
-                        on-line.
-                    </p>
-                    <h4>O que precisamos entregar?</h4>
-                    <p>Para finalizar essa missão, você precisa submeter as respostas do questionário e elaborar um
-                        texto de
-                        1 página com o resumo das instruções que identificam uma notícia falsa.</p>
-                    <h4>O que ganha?</h4>
-                    <p>Ao completar você receberá a carta Investigador que pode ser usada no torneio interclasses.</p>
-                    <h4>Progresso:</h4>
-                    <div class="progresso"></div>
-                </div>
-                <div class="outras-missoes">
-                    <h3>Mais missões</h3>
-                    <ul class="mais-missões">
-
-                        <li class="missao1"><a href="">Identificando Fake News</a></li>
-                        <li class="missao2"><a href="">Caça ao Tesouro: Escaneie 10 objetos na sua escola</a></li>
-
-                        <li class="missao3"><a href="">Conheça as bibliotecas locais</a></li>
-
-                        <li class="missao4"><a href="">Competidor local: Participe de 1 torneio amistoso</a></li>
-
-                        <li class="missao5"><a href="">Imaginação além da historia</a></li>
-
-                        <li class="missao6"><a href="">Mundo disciplinar</a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
+    </section>
     <footer>
         <div class="footer">
             <div class=" w33 left sobre">
