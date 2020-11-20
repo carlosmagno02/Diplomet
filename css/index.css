@@ -143,6 +143,7 @@ text-align: center;
 .cards img{
     border: 1px solid black;
     border-radius: 10px;
+    width: 100%;
 }
 
 .leo{
@@ -153,16 +154,18 @@ text-align: center;
 }
 
 .napoleao{
-    width: 363px;
+    max-width: 363px;
+    width: 100%;
     transform: translateX(-142px);
     z-index: 1;
     position: relative;
 }
 
 .ramses{
+    max-width: 363px;
+    width: 100%;
     position: relative;
     transform:translateX(142px);
-    width: 363px;
     z-index: 2;
 }
 
@@ -175,6 +178,7 @@ text-align: center;
     font-size: 40px;
     margin: auto 0;
     cursor: pointer;
+    color: #25B1A8;
 }
 
 /* Ranking */
@@ -306,4 +310,89 @@ font-weight: 400;
 .icones-controle p{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
+}
+
+@media screen and (max-width:700px){
+    .center{
+        width: 70%;
+    }
+    
+    /* Bem-vindo */
+    .bem-vindo{
+        padding: 107px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bem-vindo-texto h1{
+        max-width: 278px;
+        text-align: center;
+        margin: auto;
+        font-size: 48px;
+    }
+    .bem-vindo-texto p{
+        text-align: center;
+    }
+    /* Missao */
+    .missao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .missao img{
+        margin-top: 20px;
+        background: none;
+    };
+
+    /* Cartas */
+
+    .cards{
+            display: flex;
+            flex-direction: row;
+    }
+    .cards .img{
+        max-width: 10px;
+        max-height:10px ;
+    }
+    .leo{
+        max-width:150px;
+        position: relative;
+        z-index: 3;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
+    }
+    .napoleao{
+        max-width: 113px;
+        width: 100%;
+        transform: translateX(-52px);
+        z-index: 1;
+        position: relative;
+    }
+    
+    .ramses{
+        max-width: 113px;
+        width: 100%;
+        position: relative;
+        transform:translateX(52px);
+        z-index: 2;
+    }
+    /* Ranking */
+    div.ranking {
+        flex-direction: column;
+    }
+    div.ranking {
+        flex-direction: column;
+    }
+
+    div.ranking img{
+        width: 100%;
+    }
+    /* Controle */
+    div.controle{
+        flex-direction: column;
+    }
+
+    div.controle img{
+        width: 100%;
+    }
+
 }

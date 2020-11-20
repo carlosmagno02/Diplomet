@@ -79,6 +79,8 @@ html,body{
     padding:17px 0;
 }
 
+
+
 @media screen and (max-width:800px){
     nav.desktop li{
         display: none;
@@ -88,6 +90,9 @@ html,body{
     }
     nav.mobile ul{
         display: none;
+    }
+    .botao-menu-mobile i{
+        font-size: 35px;
     }
 
 }
