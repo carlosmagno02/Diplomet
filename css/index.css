@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .center{
@@ -396,6 +397,8 @@ font-weight: 400;
     div.controle{
         flex-direction: column;
     }
-
+    .botao-menu-mobile{
+        cursor: pointer;
+    }
 
 }
