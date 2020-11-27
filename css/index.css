@@ -393,7 +393,7 @@ font-weight: 400;
             flex-direction: row;
     }
     #cards{
-    width: 70%;
+    /* width: 50%; */
     margin: auto;
     }
 
@@ -419,6 +419,7 @@ font-weight: 400;
 
     /* Controle */
     div.controle{
+        padding: 90px 0;
         flex-direction: column;
     }
     
