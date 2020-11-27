@@ -393,15 +393,20 @@ font-weight: 400;
             flex-direction: row;
     }
     #cards{
-    width: 60%;
+    width: 70%;
     margin: auto;
     }
+
+    #cards img{
+        height: 80%;
+    }
+
     .campo-cards{
         display: flex;
         flex-direction: column;
         height: 150vh;
     }
-    .campo-cards
+    
     
     /* Ranking */
     div.ranking {
