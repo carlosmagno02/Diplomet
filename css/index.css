@@ -141,46 +141,35 @@ text-align: center;
     border:none;
 }
 
-
-.cards img{
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 100%;
-}
-
-.leo{
-    max-width: 406px;
-    position: relative;
-    z-index: 3;
-    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
-}
-
-.napoleao{
-    max-width: 363px;
-    width: 100%;
-    transform: translateX(-142px);
-    z-index: 1;
-    position: relative;
-}
-
-.ramses{
-    max-width: 363px;
-    width: 100%;
-    position: relative;
-    transform:translateX(142px);
-    z-index: 2;
-}
-
 .campo-cards{
     display: flex;
     flex-direction: row;
+    height: 80vh;
 }
 
-.seta{
-    font-size: 40px;
-    margin: auto 0;
-    cursor: pointer;
-    color: #25B1A8;
+#cards{
+    display: flex;
+    width: 80%;
+    position: relative;
+    max-width: 800px;;
+    height: 80%;
+
+}
+
+#cards img{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: auto;
+    height:100%;
+    position: absolute;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 1600ms;
+}
+
+#cards img.selected{
+    opacity: 1;
 }
 
 /* Ranking */
