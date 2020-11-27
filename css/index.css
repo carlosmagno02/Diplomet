@@ -9,6 +9,14 @@
     margin: auto;
 }
 
+.cartas-bem-vindo{
+    width: 100%;
+}
+
+.cartas-bem-vindo img{
+    width: 100%;
+}
+
 .bem-vindo{
     width: 100%;
     padding: 107px 0;
@@ -133,6 +141,7 @@ text-align: center;
     padding-bottom: 50px;
 }
 
+
 .barra{
     width: 181px;
     height: 10px;
@@ -144,7 +153,7 @@ text-align: center;
 .campo-cards{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 60vh;
 }
 
 #cards{
@@ -170,6 +179,37 @@ text-align: center;
 
 #cards img.selected{
     opacity: 1;
+}
+
+.cartas-texto{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    max-width: 585px;
+    line-height: 172%;
+    padding-top: 16px;
+    padding-bottom: 60px;
+}
+
+.ver-cartas{
+    padding: 30px 0;
+}
+
+.ver-cartas button{
+    font-size: 17px;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0F8B83;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0 #0A5B56;
+    padding: 10px 48px;
+    cursor: pointer;
+}
+
+.ver-cartas button:hover{
+    background-color: #188780;
+    box-shadow: none;
 }
 
 /* Ranking */
@@ -317,7 +357,7 @@ font-weight: 400;
 
 @media screen and (max-width:700px){
     .center{
-        width: 70%;
+        width: 90%;
     }
     
     /* Bem-vindo */
@@ -352,27 +392,17 @@ font-weight: 400;
             display: flex;
             flex-direction: row;
     }
-    .leo{
-        max-width:150px;
-        position: relative;
-        z-index: 3;
-        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
+    #cards{
+    width: 60%;
+    margin: auto;
     }
-    .napoleao{
-        max-width: 113px;
-        width: 100%;
-        transform: translateX(-52px);
-        z-index: 1;
-        position: relative;
+    .campo-cards{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
     }
+    .campo-cards
     
-    .ramses{
-        max-width: 113px;
-        width: 100%;
-        position: relative;
-        transform:translateX(52px);
-        z-index: 2;
-    }
     /* Ranking */
     div.ranking {
         flex-direction: column;
@@ -386,8 +416,15 @@ font-weight: 400;
     div.controle{
         flex-direction: column;
     }
-    .botao-menu-mobile{
-        cursor: pointer;
+    
+
+    .icones-controle .fas, .icones-controle .far{
+        font-size: 50px;
+    }
+    
+    .icones-controle p{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 15px;
     }
 
 }
