@@ -93,12 +93,15 @@ html,body{
         list-style: none;
     }
     .botao-menu-mobile i{
+        padding-top: 15px;
         font-size: 35px;
         color: white;
     }
     .botao-menu-mobile{
         cursor: pointer;
     }
+
+
 
     .mobile a{
         font-size: 20px;
