@@ -45,10 +45,10 @@
                         <i class="fas fa-bars"></i>
                     </div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a style="color: aqua;" href="./index.html">Home</a></li>
+                        <li><a href="./missoes">Home</a></li>
+                        <li><a href="./ranking">Sobre</a></li>
+                        <li><a href="./sobre">Serviços</a></li>
                     </ul>
                 </nav>
                 <!--mobile-->
@@ -88,13 +88,16 @@
             <h4>Se divirta com seus amigos neste card game</h4>
         </div>
         <div class="campo-cards">
-            <i class="seta fas fa-chevron-left"></i>
-            <div class="cards">
-                <img class="ramses" src="./img/Ramses II.png" alt="">
-                <img class="leo" src="./img/Leo da Vinci.png" alt="">
-                <img class="napoleao" src="./img/Napoleão Bonaparte.png" alt="">
+            <div id="cards">
+                <img class="selected" src="./img/Ramses II.png" alt="">
+                <img src="./img/Leo da Vinci.png" alt="">
+                <img src="./img/Napoleão Bonaparte.png" alt="">
             </div>
-            <i class="seta fas fa-chevron-right"></i>
+            <div class="cartas-texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam amet possimus corporis numquam.
+                    Voluptatum tempora illum ipsa optio inventore porro quasi ducimus, ea, impedit numquam itaque id,
+                    consequuntur molestias?</p>
+            </div>
         </div>
     </section>
     <section class="ranking">
@@ -173,10 +176,11 @@
             </div>
             <div class="clear"></div>
         </div>
-                <div class="reservado">
-                    <p>Diplomet© 2020</p>
-                </div>
+        <div class="reservado">
+            <p>Diplomet© 2020</p>
+        </div>
     </footer>
+    <script src="./js/slider.js"></script>
     <script src="./js/jquery.js"></script>
     <script src="./js/script.js"></script>
 </body>
