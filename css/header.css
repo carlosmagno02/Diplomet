@@ -101,7 +101,10 @@ html,body{
         cursor: pointer;
     }
 
-
+    .center-hd{
+        width: 90%;
+        margin: auto;
+    }
 
     .mobile a{
         font-size: 20px;

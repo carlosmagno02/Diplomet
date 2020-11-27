@@ -41,7 +41,7 @@ div.historia{
     font-family: 'Roboto Slab', serif;
 }
 
-.historia-img {
+.historia-img img {
     max-width: 596px;
     width: 100%;
     box-shadow:  0 4px  4px 0 rgba(0, 0, 0, 0.25);
@@ -79,4 +79,120 @@ div.historia{
     font-size: 25px;
     padding: 5px;
     list-style: decimal inside ;
+}
+
+/* fim lista */
+
+/* plataforma */
+div.plataforma{
+    padding: 100px 0;
+}
+
+.titulo-plataforma{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.conteudo-plataforma{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-plataforma img{
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto-plataforma{
+    font-family: 'Rooto Slab', serif;
+    font-size: 25px;
+    max-width: 545px;
+    line-height: 180%;
+}
+
+
+
+/* Fim plataforma */
+
+/* como-ajudamos */
+section.como-ajudamos{
+    background-color: #EDEDED;
+}
+
+div.texto-como-ajudamos{
+    padding: 100px 0;
+}
+
+.titulo-como-ajudamos{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    width: 100%;
+}
+
+.titulo-como-ajudamos h3{
+    padding-left: 20px;
+    color: #25B1A8;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.texto-como-ajudamos p{
+    padding: 50px 0;
+    font-family: 'Rooto Slab', serif;
+    font-size: 27px;
+    line-height: 138%;
+    max-width: 1125px;
+}
+
+@media screen and (max-width:700px){
+    .center{
+        width: 90%;
+    }
+
+    div.historia{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .historia-texto .title{
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Palanquin Dark', sans-serif;
+        font-weight: 600;
+        max-width: 540px;
+    }
+
+    .inspiracao .title h2{
+        font-size: 35px;
+    }
+
+    .lista h3{
+        text-align: left;
+        font-family: 'Palanquin Dark', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        max-width: 496px;
+        padding-bottom: 40px;
+    
+    }
+
+    .titulo-plataforma{
+        font-size: 33px;
+    }
+
+    .conteudo-plataforma{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-como-ajudamos{
+        font-family: 'Palanquin Dark', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        max-width: 100%;
+    }
+    
 }
