@@ -90,9 +90,20 @@ html,body{
     }
     nav.mobile ul{
         display: none;
+        list-style: none;
     }
     .botao-menu-mobile i{
         font-size: 35px;
+        color: white;
+    }
+    .botao-menu-mobile{
+        cursor: pointer;
+    }
+
+    .mobile a{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
     }
 
 }
