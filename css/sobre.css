@@ -68,13 +68,15 @@ div.historia{
     font-weight: 500;
     font-size: 45px;
     max-width: 496px;
+    font-weight: 500;
     padding-bottom: 40px;
+    text-shadow:0 4px 4px black;
 
 }
 
 .lista li{
-    font-family: 'Rooto Slab', serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     padding: 5px;
     list-style: decimal inside ;
@@ -90,7 +92,7 @@ div.plataforma{
 .titulo-plataforma{
     font-family: 'Palanquin Dark', sans-serif;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -106,10 +108,11 @@ div.plataforma{
 }
 
 .texto-plataforma{
-    font-family: 'Rooto Slab', serif;
+    line-height: 160%;
     font-size: 25px;
-    max-width: 545px;
-    line-height: 180%;
+    max-width: 546px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -128,22 +131,22 @@ div.texto-como-ajudamos{
 .titulo-como-ajudamos{
     font-family: 'Palanquin Dark', sans-serif;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 50px;
     width: 100%;
 }
 
 .titulo-como-ajudamos h3{
     padding-left: 20px;
     color: #25B1A8;
-    box-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .texto-como-ajudamos p{
     padding: 50px 0;
-    font-family: 'Rooto Slab', serif;
     font-size: 27px;
     line-height: 138%;
     max-width: 1125px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
 }
 
 @media screen and (max-width:700px){

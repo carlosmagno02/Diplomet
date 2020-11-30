@@ -11,8 +11,9 @@ footer{
     margin: auto;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
-     display: flex;
+    display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .footer h3{
@@ -33,6 +34,7 @@ footer{
 
 .reservado{
     text-align: center;
+    color: white;
 }
 
 .contato{
@@ -62,6 +64,7 @@ footer{
     color:#0F8B83;
     top: 25px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .fa-instagram{
