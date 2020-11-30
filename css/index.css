@@ -404,15 +404,15 @@ font-weight: 400;
         /* margin: auto; */
     }
 
-    /* #cards img{
-        left: 15%;
-        height: 80%;
-    } */
+    #cards img{
+        height:auto;
+        width: 80%;
+    }
 
     .campo-cards{
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 130vh;
     }
     
     
