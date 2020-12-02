@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ranking h2{
+    text-align: center;
+}
+.tabelas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tabela-ranking{
+    margin-top: 20px;
+    max-width: 590px;
+    width: 100%;
+    border: 6px solid;
+}
+
+div.titulo-tabela{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tabela-ranking ul{
+    list-style: none;
+}
+
+.tabela-ranking li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 2%;
+}
+
+/* Recompensa */
+
+div.fundo-cards{
+background-color: #6F6C6C;
+
+}
+div.cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+div.card{
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
