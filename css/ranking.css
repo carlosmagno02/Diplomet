@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@600;700&family=Roboto+Slab&family=Roboto:wght@400;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,23 @@
     margin: auto;
 }
 
+div.ranking{
+    padding: 5% 0;
+}
+
 .ranking h2{
     text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 54px;
 }
+
+.ranking img{
+    width: 20%;
+}
+.medalhas {
+    width: 10% !important;
+}
+
 .tabelas{
     display: flex;
     justify-content: space-between;
@@ -19,17 +35,60 @@
 }
 
 .tabela-ranking{
-    margin-top: 20px;
+    margin-top: 7%;
     max-width: 590px;
     width: 100%;
     border: 6px solid;
 }
 
+.al-serie{
+    border: 6px solid #0F8B83;
+    box-shadow: 5px 5px 10px black, inset 10px 10px 10px black
+}
+.al-escola{
+    border: 6px solid #FEDF10;
+    box-shadow: 5px 5px 10px black, inset 10px 10px 10px black
+}
+.escola{
+    border: 6px solid #CB0E15;
+    box-shadow: 5px 5px 10px black, inset 10px 10px 10px black
+}
+.ml-aluno{
+    border: 6px solid #FE9800;
+    box-shadow: 5px 5px 10px black, inset 10px 10px 10px black
+}
+
 div.titulo-tabela{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 90%;
     margin: auto;
+}
+
+.titulo-tabela img{
+    width: 6%;
+}
+
+.al-serie .titulo-tabela{
+    margin-top: 5%;
+    height: 10%;
+    background: #0F8B83;
+}
+.al-escola .titulo-tabela{
+    margin-top: 5%;
+    height: 10%;
+    background: #FEDF10;
+}
+.escola .titulo-tabela{
+    margin-top: 5%;
+    height: 10%;
+    background: #CB0E15;
+}
+.ml-aluno .titulo-tabela{
+    margin-top: 5%;
+    height: 10%;
+    background: #FE9800;
 }
 
 .tabela-ranking ul{
@@ -38,26 +97,134 @@ div.titulo-tabela{
 
 .tabela-ranking li{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10% 2%;
+    padding: 5% 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: right;
 }
 
 /* Recompensa */
+.recompensa h2{
+    font-family: Palanquin Dark;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 53px;
+    line-height: 130.1%;
+    color: #0F8B83;
+}
+
+.recompensa h3{
+    font-family: Palanquin Dark;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 130.1%;
+}
+
 
 div.fundo-cards{
+    padding:8%;
 background-color: #6F6C6C;
 
 }
 div.cards{
+    max-width: 1100px;
     width: 100%;
-    margin: auto;
     display: flex;
 }
 div.card{
+    height:304px;
     max-width: 220px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
 }
+
+div.card:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+    color: #0F8B83;
+}
+
+.card p{
+    max-width: 130px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.cardtexto{
+    margin: auto;
+}
+
+.aprendeu{
+    background-color: #25B1A8;
+    /* height: 500px; */
+}
+
+div.aprendeu{
+    padding: 5% 0;
+}
+
+div.title-aprendeu{
+    padding-bottom: 3%;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height:130%;
+    letter-spacing: 0.005em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0,0.25);
+}
+
+div.title-aprendeu h3{
+    padding-top: 1%;
+    color: white;
+    padding-left: 4%;
+}
+
+div.aprendeu p{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 1;
+    font-size: 30px;
+    line-height:130%;
+    letter-spacing: 0.005em;
+}
+div.recompensa{
+    padding: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+
+    .center{
+        width: 80%;
+    }
+    div.cards{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    div.card{
+        height:204px;
+        max-width: 220px;
+        width: 100%;
+    }
+}
+
+
+
