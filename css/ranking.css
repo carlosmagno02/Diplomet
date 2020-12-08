@@ -116,6 +116,7 @@ div.titulo-tabela{
     font-size: 53px;
     line-height: 130.1%;
     color: #0F8B83;
+    text-align: center;
 }
 
 .recompensa h3{
@@ -205,6 +206,7 @@ div.aprendeu p{
 div.recompensa{
     padding: 40px;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (max-width:700px){
