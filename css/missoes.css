@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500;600&family=Roboto+Slab&display=swap');
+
+section{
+    padding: 20px;
+}
+
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+
+img{
+    width:100%
+}
+
+.title{
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.title h2{
+    color:#0F8B83
+}
+
+.title h3{
+    font-size: 23px;
+}
+
+.objetivo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.objetivo-inverse{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row-reverse;
+}
+
+.qual-objetivo{
+    max-width: 100%;
+    width: 550px;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+}
+
+.qual-objetivo h2{
+    font-size: 28px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 500;
+    color: #0F8B83;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
+}
+
+.fanficando{
+    background-color: #25B1A8;
+}
+
+.fanficando .title h2{
+    color: white;
+}
+
+.fanficando .qual-objetivo h2{
+    color: white;
+}
+
+.mundo{
+    background-color: #D0D0D0;
+}
+
+@media screen and (max-width:700px){
+    .objetivo, .objetivo-inverse{
+        flex-direction: column;
+    }
+}
