@@ -89,7 +89,8 @@ footer{
     }
     .sobre{
         width: 80%;
-        text-align: center;
+        text-align: left;
+        /* margin: auto; */
     }
     .contato{
         margin: 0;
