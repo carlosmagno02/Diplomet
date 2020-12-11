@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&family=Roboto+Slab&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -32,10 +34,10 @@ div.historia{
     color: #0F8B83;
 }
 
-.historia-texto p{
+p{
     padding-top: 45px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     max-width: 546px;
     font-weight: 400;
     font-family: 'Roboto Slab', serif;
@@ -70,8 +72,6 @@ div.historia{
     max-width: 496px;
     font-weight: 500;
     padding-bottom: 40px;
-    text-shadow:0 4px 4px black;
-
 }
 
 .lista li{

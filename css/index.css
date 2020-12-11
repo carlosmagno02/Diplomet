@@ -269,6 +269,7 @@ div.ranking{
     margin: 10px 0;
 }
 
+
 .texto-ranking button{
     font-size: 17px;
     font-family: 'Palanquin Dark', sans-serif;
@@ -355,7 +356,6 @@ font-weight: 400;
 
 .icones-controle .fas, .icones-controle .far{
     font-size: 60px;
-    cursor: pointer;
 }
 
 .icones-controle p{
